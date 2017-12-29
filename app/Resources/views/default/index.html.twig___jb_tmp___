@@ -1,10 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Welcome on the FOSMessage demo{% endblock %}
+{% block title %}Welcome{% endblock %}
 
 {% block body %}
     <p>
-        Welcome on the FOSMessage demo application!
+        BlueMelon!
     </p>
 
     {% if app.user %}

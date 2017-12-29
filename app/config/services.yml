@@ -41,3 +41,7 @@ services:
             - "@fos_message.repository"
         tags:
             - { name: "twig.extension" }
+    app.form.registration:
+        class: AppBundle\Form\RegistrationFormType
+        tags:
+            - { name: form.type }
